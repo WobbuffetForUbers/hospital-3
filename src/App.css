@@ -1,0 +1,52 @@
+.square-layout {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+      justify-items: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .room {
+      width: 100px;
+      height: 100px;
+      background-color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+    .patient-encounter {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .menu li {
+      cursor: pointer;
+      padding: 5px;
+      border: 1px solid #ddd;
+      margin: 5px 0;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    .menu li:hover {
+      background-color: #e0e0e0;
+    }
